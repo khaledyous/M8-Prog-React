@@ -1,0 +1,33 @@
+/* AboutMe.css */
+
+.AboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+}
+
+.AboutMe img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.aboutMe__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.aboutMe__paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 400px;
+}
